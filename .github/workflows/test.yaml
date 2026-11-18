@@ -1,8 +1,0 @@
-
-name: first git hub actions
-
-on: push
-
-jobs: 
-    test-job:
-        runs-on: ubunt
