@@ -1,19 +1,12 @@
 name: githubactions is orac
 
-on: push
+on: workflow-dispatch
 
 jobs:
     files:
         runs-on: ubuntu-latest
         steps:
             - name: create a file
-              run: echo "hi this is rammohan" > devops.txt
-
-            - name: display the content of the file
-              run: cat devops.txt
-
-            - name: diplay the /etc/passwd
-              run: cat /etc/passwd
-
-            - name: display current location
-              run: pwd
+              run: cat first.yaml
+            
+            
